@@ -3,9 +3,9 @@
 
 ## 1.Survey/Guide
 
-| DeepLearning Method                    | Title                                                        |
+| DeepLearning Method                    | Title                                                        |Introduction                                                 |
 | -------------------------------------- | ------------------------------------------------------------ |
-|            Guide                       | [(USENIX 2022)Dos and Don'ts of Machine Learning in Computer Security](https://www.usenix.org/conference/usenixsecurity22/presentation/arp)) |
+|            Guide                       | (USENIX 2022)[Dos and Don'ts of Machine Learning in Computer Security](https://www.usenix.org/conference/usenixsecurity22/presentation/arp)) | 回顾了过去10年四大安全顶会的深度学习应用文章，由此总结了机器学习应用于安全领域需要注意的事项（该做/不该做）|
 
 ## 2.Network Intrusion Detection
 - (IEEE S&P 2010) [Outside the Closed World: On Using Machine Learning for Network Intrusion Detection](https://ieeexplore.ieee.org/abstract/document/5504793)
