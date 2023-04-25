@@ -1,9 +1,11 @@
 # Awesome-DeepLearning-In-Cyber-Security-Paper
-在网络安全领域，应用deepLearning方法的重要paper，主要为网络流量/日志处理领域
+在网络安全领域，应用deepLearning方法的重要paper
 
-## Survey/Gudie
+## 1.Survey/Guide
 
-| Topic                                  | Title                                                        |
+| DeepLearning Method                    | Title                                                        |
 | -------------------------------------- | ------------------------------------------------------------ |
-|                                        | [(USENIX 2022) Dos and Don't DeepLearning](https://ieeexplore.ieee.org/document/9833579/) |
-|                                        | [BadEncoder: Backdoor Attacks to Pre-trained Encoders in Self-Supervised Learning](https://ieeexplore.ieee.org/document/9833644/) |
+|            Guide                       | [(USENIX 2022)Dos and Don'ts of Machine Learning in Computer Security]([https://ieeexplore.ieee.org/document/9833579/](https://www.usenix.org/conference/usenixsecurity22/presentation/arp)) |
+
+## 2.Network Intrusion Detection
+- (IEEE S&P) [Outside the Closed World: On Using Machine Learning for Network Intrusion Detection](https://ieeexplore.ieee.org/abstract/document/5504793)
