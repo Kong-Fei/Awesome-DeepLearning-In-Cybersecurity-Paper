@@ -11,4 +11,4 @@
 | DeepLearning Method                    | Title                                                        |Introduction                                                 |
 | -------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------| 
 |            Guide                       | [(IEEE S&P 2010) Outside the Closed World: On Using Machine Learning for Network Intrusion Detection](https://ieeexplore.ieee.org/abstract/document/5504793) | S&P时间检验奖，介绍了机器/深度学习方法应用到网络流量异常检测乃至网络安全领域的困境 |
-- 
+|            Autoencoder   Ensemble      | [(NDSS 2018) Kitsune: An ensemble of autoencoders for online network intrusion detection](https://arxiv.org/abs/1802.09089)   |  基于自编码器集群学习正常流量的数据特征分布，检测异常流量，轻量级无监督NIDS      | 
