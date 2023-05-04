@@ -31,4 +31,4 @@
 ## 4.Host Log Analysis
 | DeepLearning Method                    | Title                                                        |Introduction                                                 |
 | -------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------| 
-|            Attention&RNN/GRU      | [(IEEE S&P 2022) DEEPCASE: Semi-Supervised Contextual Analysis of Security Events](https://ieeexplore.ieee.org/abstract/document/9833671/)   |  针对一条日志$e_i$，基于GRU构建同一主机的日志事件序列向量，然后使用Attention计算序列中其他日志与$e_i$的关联性，通过这两部分获得告警事件的总向量，聚类对对应事件进行解释|  
+|            Attention&RNN/GRU      | [(IEEE S&P 2022) DEEPCASE: Semi-Supervised Contextual Analysis of Security Events](https://ieeexplore.ieee.org/abstract/document/9833671/)   |  针对一条日志 $e_i$，基于GRU构建同一主机的日志事件序列向量，然后使用Attention计算序列中其他日志与 $e_i$的关联性，通过这两部分获得告警事件的总向量，聚类对对应事件进行解释|  
