@@ -13,7 +13,7 @@
 
 | DeepLearning Method                    | Title                                                        |Introduction                                                 |
 | -------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------| 
-|            Guide                       | [(USENIX 2022)Dos and Don'ts of Machine Learning in Computer Security](https://www.usenix.org/conference/usenixsecurity22/presentation/arp)) | 回顾了过去10年四大安全顶会的深度学习应用文章，由此总结了机器学习应用于安全领域需要注意的事项（该做/不该做的事项）|
+|            Guide                       | [(USENIX 2022)Dos and Don'ts of Machine Learning in Computer Security](https://www.usenix.org/conference/usenixsecurity22/presentation/arp)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| 回顾了过去10年四大安全顶会的深度学习应用文章，由此总结了机器学习应用于安全领域需要注意的事项（该做/不该做的事项）|
 ## 2.Traffic
 > 针对网络流量（通用流量、加密流量等）的分析工作，包括流量分类、异常识别等
 
@@ -30,7 +30,7 @@
 
 | DeepLearning Method                    | Title                                                        |Introduction                                                 |
 | -------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------| 
-|            Pre-Trian(Bert)                       | [(WWW 2022) Et-bert: A contextualized datagram representation with pre-training transformers for encrypted traffic classification](https://dl.acm.org/doi/fullHtml/10.1145/3485447.3512217) | 构建了一种基于Bert的加密流量分类模型ET-BERT，主要贡献在于设计了一种将流量数据packets按flow临近聚合为BURST作为分析单元，并转化为Tokens。此外该paper第一次创建了TLS 1.3的加密流量数据集|
+|            Pre-Trian(Bert)                       | [(WWW 2022) Et-bert: A contextualized datagram representation with pre-training transformers for encrypted traffic classification](https://dl.acm.org/doi/fullHtml/10.1145/3485447.3512217)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| 构建了一种基于Bert的加密流量分类模型ET-BERT，主要贡献在于设计了一种将流量数据packets按flow临近聚合为BURST作为分析单元，并转化为Tokens。此外该paper第一次创建了TLS 1.3的加密流量数据集|
 
 ## 3. Alert/Log
 > 对告警日志（网络/主机）进行的分析，包括告警关联聚类、告警误报/真实攻击识别、模式画像等
@@ -40,11 +40,11 @@
 
 | DeepLearning Method                    | Title                                                        |Introduction                                                 |
 | -------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------| 
-|            Guide                       | [(CSS 2017) DeepLog: Anomaly Detection and Diagnosis from System Logs through Deep Learning](https://dl.acm.org/doi/abs/10.1145/3133956.3134015) | TODO |
+|            Guide                       | [(CSS 2017) DeepLog: Anomaly Detection and Diagnosis from System Logs through Deep Learning](https://dl.acm.org/doi/abs/10.1145/3133956.3134015) | TODO  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
 
 ### 3.2 Host Log Analysis
 > 主机日志
 
 | DeepLearning Method                    | Title                                                        |Introduction                                                 |
 | -------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------| 
-|            Attention&RNN/GRU      | [(IEEE S&P 2022) DEEPCASE: Semi-Supervised Contextual Analysis of Security Events](https://ieeexplore.ieee.org/abstract/document/9833671/)   |  针对一条日志 $e_i$，基于GRU构建同一主机的日志事件序列向量，然后使用Attention计算序列中其他日志与 $e_i$的关联性，通过这两部分获得告警事件的总向量，聚类对对应事件进行解释|  
+|            Attention&RNN/GRU      |    [(IEEE S&P 2022) DEEPCASE: Semi-Supervised Contextual Analysis of Security Events](https://ieeexplore.ieee.org/abstract/document/9833671/)        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|  针对一条日志 $e_i$，基于GRU构建同一主机的日志事件序列向量，然后使用Attention计算序列中其他日志与 $e_i$的关联性，通过这两部分获得告警事件的总向量，聚类对对应事件进行解释|  
